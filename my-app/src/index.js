@@ -28,8 +28,7 @@ function SearchBar(props) {
         filterOption={true}
         style={{width:'100%'}}
       >
-        {data.map((city) => {
-          return (
+        {data.map((city) => {return (
             <Option key={city.cityid} value={city.citynamestate}>
               <p>{city.citynamestate}</p>
             </Option>  
